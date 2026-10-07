@@ -1,0 +1,18 @@
+TRAIN_SAFE: false
+TRAIN_RH: false
+
+
+REWARD_WHITE: true
+cache_pickle_read_dir: "/data/psa/khgfds/data/cachedata/fy4harm_1209"
+cache_pickle_write_dir: "/data/psa/khgfds/data/cachedata/fy4harm_1209"
+
+model_name : "/data/huancun/models/Qwen2.5-7B-Instruct-ms"
+# model_name : "meta-llama/Meta-Llama-3-8B-Instruct"
+
+per_device_train_batch_size : 4
+gradient_accumulation_steps : 16
+per_device_eval_batch_size: 4
+
+
+learning_rate: 1.0e-4
+# learning_rate: 1.0e-6
